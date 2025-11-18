@@ -8,6 +8,13 @@
     "declaration": true,
     "resolveJsonModule": true
   },
-  "include": ["./scripts", "./test", "./typechain-types", "./eip-712-types", "./*.config.ts"],
+  "include": [
+    "./scripts",
+    "./test",
+    "./src-upgradeable/test",
+    "./typechain-types",
+    "./eip-712-types",
+    "./*.config.ts"
+  ],
   "files": ["./hardhat.config.ts"]
 }
