@@ -28,5 +28,5 @@ module.exports = {
     // Obtain one at https://etherscan.io/
     apiKey: process.env.ETHERSCAN_API_KEY,
   },
-  paths: { sources: "./src" },
+  paths: { sources: "./src", tests: "./test" },
 };
