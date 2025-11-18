@@ -28,6 +28,19 @@ Located at [`scripts/deploy.ts`](./scripts/deploy.ts)
 
 Located at [`scripts/upgrade.ts`](./scripts/upgrade.ts)
 
+## Testing
+
+The upgradeable package now ships with a dedicated Hardhat test suite that
+exercises the proxy workflow and SeaDrop integration mirrors. From the project
+root execute:
+
+```
+yarn test:upgradeable
+```
+
+This command uses `src-upgradeable/hardhat.config.ts`, deploys mocks, and
+verifies that upgradeable tokens retain configuration through proxy upgrades.
+
 ### Testnet / Mainnet
 
 We will use the Sepolia testnet as an example.
